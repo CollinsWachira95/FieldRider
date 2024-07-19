@@ -1,0 +1,112 @@
+{
+  "tractors": [
+    {
+      "id": "1",
+      "name": "John Deere 1025R",
+      "location": "Nairobi",
+      "pricePerHour": 50
+    },
+    {
+      "id": "2",
+      "name": "Kubota L2501",
+      "location": "Mombasa",
+      "pricePerHour": 60
+    },
+    {
+      "id": "3",
+      "name": "Massey Ferguson 135",
+      "location": "Kisumu",
+      "pricePerHour": 55
+    },
+    {
+      "id": "4",
+      "name": "New Holland TC30",
+      "location": "Nakuru",
+      "pricePerHour": 65
+    },
+    {
+      "id": "5",
+      "name": "Mahindra 1626",
+      "location": "Eldoret",
+      "pricePerHour": 70
+    }
+  ],
+  "farmers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "location": "Nairobi"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "location": "Mombasa"
+    },
+    {
+      "id": "3",
+      "name": "Samuel Tanui",
+      "email": "samuel@example.com",
+      "location": "Kisumu"
+    },
+    {
+      "id": "4",
+      "name": "Ann Mwangi",
+      "email": "ann@example.com",
+      "location": "Nakuru"
+    },
+    {
+      "id": "5",
+      "name": "Peter Kimani",
+      "email": "peter@example.com",
+      "location": "Eldoret"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "1",
+      "name": "James Otieno",
+      "email": "james@example.com",
+      "tractorId": 1
+    },
+    {
+      "id": "2",
+      "name": "Mary Atieno",
+      "email": "mary@example.com",
+      "tractorId": 2
+    },
+    {
+      "id": "3",
+      "name": "Michael Kiprono",
+      "email": "michael@example.com",
+      "tractorId": 3
+    },
+    {
+      "id": "4",
+      "name": "Lucy Wanjiku",
+      "email": "lucy@example.com",
+      "tractorId": 4
+    },
+    {
+      "id": "5",
+      "name": "Daniel Njoroge",
+      "email": "daniel@example.com",
+      "tractorId": 5
+    },
+    {
+      "id": "efbc",
+      "driver-name": "collins",
+      "driver-phone": "0721252288",
+      "tractor-model": "maserati",
+      "fuel-cost": "1",
+      "fuel_cost": null
+    },
+    {
+      "id": "0454",
+      "name": "Collins Wachira ",
+      "location": "Kilimani",
+      "fuel_cost": 1
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tractor Titan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Tractor Titan</h1>
+        </div>
+    </header>
+
+    <div class="main-image">
+        <img src="https://images.unsplash.com/photo-1696010619929-493071e82b0d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D" alt="A Tractor Ploughing A Track Of Land">
+        <div class="main-text">
+            <p>Welcome to Tractor Titan, your ultimate solution for locating and managing tractors for your farm. Whether you're a farmer looking for reliable tractors or a driver offering services, we've got you covered.</p>
+            <button onclick="showForm()">Get Started</button>
+        </div>
+    </div>
+
+    <div id="sign-up-info">
+        <h2>Sign Up</h2>
+        <div class="tab">
+            <button class="tablinks active" onclick="openTab(event, 'farmer')">Farmers</button>
+            <button class="tablinks" onclick="openTab(event, 'driver')">Drivers</button>
+        </div>
+        <div id="farmer" class="tabcontent" style="display: block;">
+            <div class="form-container">
+                <div class="form-left" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB8gdIkSmo0TYb0yEbcdwYNVKLc70VKzAclA&s');">
+                    <div class="form-text">Farmer Sign Up</div>
+                </div>
+                <div class="form-right">
+                    <form id="farmerForm">
+                        <div class="form-group">
+                            <label for="farmer-name">Name:</label>
+                            <input type="text" id="farmer-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="farmer-location">Location:</label>
+                            <input type="text" id="farmer-location" name="location" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="farmer-acres">Acres:</label>
+                            <input type="number" id="farmer-acres" name="acres" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="farmer-price">Price per Acre:</label>
+                            <input type="number" id="farmer-price" name="price_per_acre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="driver" class="tabcontent">
+            <div class="form-container">
+                <div class="form-left" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVwpauHVGxqxdm6DFrvfDGBWDIeCjmDy9tAg&s');">
+                    <div class="form-text">Driver Sign Up</div>
+                </div>
+                <div class="form-right">
+                    <form id="driverForm">
+                        <div class="form-group">
+                            <label for="driver-name">Name:</label>
+                            <input type="text" id="driver-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="driver-location">Location:</label>
+                            <input type="text" id="driver-location" name="location" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="driver-fuel">Fuel Cost:</label>
+                            <input type="number" id="driver-fuel" name="fuel_cost" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            &copy; 2024 Tractor Titan
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

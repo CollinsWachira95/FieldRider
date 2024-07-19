@@ -1,0 +1,213 @@
+/* Basic Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e2e2e2, #b0c4de);
+}
+
+/* Header Styles */
+header {
+    background-color: #c74b2b; /* Deeper sunset color with a hint of red */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Logo Styles */
+.logo {
+    font-family: 'Georgia', serif; /* Changed font */
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Main Image Styles */
+.main-image {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.main-image img {
+    width: 100%;
+    display: block;
+}
+
+.main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.main-text p {
+    margin-bottom: 20px;
+}
+
+.main-text button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.main-text button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Sign Up Section Styles */
+#sign-up-info h2 {
+    text-align: center;
+    font-family: serif;
+    margin-bottom: 20px;
+}
+
+/* Tab Styles */
+.tab {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab button {
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab button.active {
+    background-color: #ddd;
+}
+
+.tabcontent {
+    display: flex;
+}
+
+/* Form Styles */
+.form-container {
+    display: flex;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.form-left {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.form-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.form-right {
+    flex: 1;
+    padding: 10px;
+    background-color: #fff; /* Reverted to original color */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select {
+    width: 90%; /* Reduced width */
+    padding: 8px; /* Reduced padding */
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 1em;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
