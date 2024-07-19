@@ -53,7 +53,7 @@ Clone the Repository:
 
 Open your terminal or Git Bash.
 1. Run the following command to clone the repository:
-git clone 
+git clone git@github.com:CollinsWachira95/FieldRider.git
 
 2. Navigate into the Project Directory:
 

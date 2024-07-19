@@ -99,8 +99,8 @@
       "driver-name": "collins",
       "driver-phone": "0721252288",
       "tractor-model": "maserati",
-      "fuel-cost": "1",
-      "fuel_cost": null
+      "fuel-cost": "1"
+      
     },
     {
       "id": "0454",

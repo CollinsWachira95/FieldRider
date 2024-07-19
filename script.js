@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         formObj.price_per_acre = parseInt(formObj.price_per_acre);
         formObj.total_price = formObj.acres * formObj.price_per_acre;
         
-        fetch('http://localhost:3000/farmers', {
+        fetch('https://tractor-titan-backend.vercel.app/farmers', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const formObj = Object.fromEntries(formData.entries());
         formObj.fuel_cost = parseInt(formObj.fuel_cost);
         
-        fetch('http://localhost:3000/drivers', {
+        fetch('https://tractor-titan-backend.vercel.app/drivers', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
